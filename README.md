@@ -26,3 +26,4 @@ This project focuses on the application of CSS to style a webpage based on a Fig
 
 ## Installation
 Clone the repository and open `index.html` in your browser.
+
