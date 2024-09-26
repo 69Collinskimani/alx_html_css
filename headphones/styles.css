@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+header .menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.head {
+    background-image: url('./public/Object.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+}
+header .menu button {
+    background: transparent;
+    border: none;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+}
+header .menu button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.head .info {
+    width: 680px;
+    top: 372px;
+    left: 382px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    color: #c5c5a5;
+}
+
+.head .info p {
+    margin: 15px;
+    font-size: 22px;
+}
+
+.head .info button {
+    padding: 16px;
+    background-color: #FF6565;
+    border-radius: 25px;
+    width: 162px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f1f1e8;
+    letter-spacing: 1px;
+}
+
+.head .description {
+    color: #b1a0a0;
+    margin: auto;
+    width: 90%;
+    word-spacing: 2px;
+    margin-top: 55px;
+}
+
+.main {
+    height: 100vh;
+}
+
+.main_desc {
+    width: 70%;
+    margin: auto;
+}
+.main h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main p {
+    width: 70%;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.what_we_do {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.what_we_do div {
+    width: 25%;
+}
+
+.what_we_do div div {
+    margin: auto;
+}
+
+.what_we_do div p {
+    text-align: center;
+}
+
+.analytics {
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('./public/background.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.analytics h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #d1c1c1;
+}
+
+.analytics p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.analytics div {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.contact_us {
+    height: 300px;
+}
+
+.contact_us h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact_us form {
+    text-align: center;
+    margin-top: 60px;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+.input_box {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_box label {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.input_box input {
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 35px;
+    width: 80%;
+    margin-left: 5px;
+    padding: 5px;
+}
+.message_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_box label {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 360%;
+}
+.message_box textarea {
+    width: 80%;
+    height: 35px;
+    margin-left: 5px;
+    resize: none;
+    border: none;
+    height: 65px;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+
+.contact_us button {
+    width: 80%;
+    border-radius: 26px;
+    background-color: #FF6565;
+    color: #fff;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #071629;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .logo {
+    margin: auto 60px;
+    display: flex;
+    justify-content: space-between;
+}
+footer i {
+    color: #fff;
+}
+
+footer .socials a {
+    margin: 5px;
+}
+.socials {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .head {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .head .info {
+        width: 90%;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header .logo {
+        margin-right: 60px;
+    }
+    .main {
+        height: auto;
+    }
+    .what_we_do {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 90px;
+    }
+    
+    .what_we_do div {
+        width: 50%;
+    }
+    .analytics {
+        height: auto;
+    }
+    .analytics div {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .analytic_icon {
+        width: 5%;
+        height: 5%;
+    }
+    .contact_us {
+        width: 95%;
+        height: auto;
+    }
+    .contact_us form {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .analytics {
+        margin-bottom: 15px;
+    }
+    .analytics div {
+        margin-top: 40px;
+    }
+    footer .socials a {
+        margin: 2px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .logo {
+        margin: auto 10px;
+    }
+    .socials {
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+}
